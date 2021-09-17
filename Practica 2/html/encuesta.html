@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TuMusica</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/header-footer.css">
+    <script src="../js/validaciones.js"></script>
+</head>
+
+<body>
+    <div class="cabecera">
+        <header>
+            <div class="encabezado">
+                <div class="imagen-encabezado">
+                    <img id="logo" src="../img/logo.png" alt="logomusica">
+                </div>
+                <div class="titulo">
+                    <h1>Música para vos</h1>
+                </div>
+            </div>
+        </header>
+    </div>
+    <div class="encuesta">
+        <form name="formulario" action="#" method="POST">
+            <div class="item">
+                <br><label for="nombre">Nombre:</label>
+                <input type="text" id="nombre">
+                <br><label for="apellido">Apellido:</label>
+                <input type="text" id="apellido">
+                <br><label for="fechanac">Fecha de Nacimiento:</label>
+                <input type="text" id="fechanac">
+                <br><label for="sexo">Sexo:</label>
+                <input type="text" id="sexo">
+                <br>Valoracion:
+                <br><input type="radio" name="valoracion" value="Lamentable" id="lamentable"> <!-- el id es necesario para validar??-->
+                <label for="lamentable">Lamentable</label>
+                <br><input type="radio" name="valoracion" value="Mala" id="mala">
+                <label for="mala">Mala</label>
+                <br><input type="radio" name="valoracion" value="Podria ser mejor" id="mejorar">
+                <label for="mejorar">Podria ser mejor</label>
+                <br><input type="radio" name="valoracion" value="Cumple con mis expectativas" id="cumple">
+                <label for="cumple">Cumple con mis expectativas</label>
+                <br><input type="radio" name="valoracion" value="Me encanto" id="encanta"> 
+                <label for="encanta">Me encantó</label>
+                <br><label for="email">Email:</label>
+                <input type="text" id="email">
+                <br><label for="comentario">Comentario:</label>
+                <input type="text" id="comentario" maxlength="200" size="40">
+                <br>
+                <input type="button" value="Enviar" onclick="enviar()"/>
+                <input type="button" value="Cancelar" onclick="cancelar()"/>
+                <input type="button" value="Restablecer" onclick="restablecer()"/>
+            </div>
+        </form>
+</body>
+</html>
