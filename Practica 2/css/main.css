@@ -14,14 +14,21 @@ html {
 }
 
 /* MENÚ DE CATEGORÍAS */
+/*
+nav {
+    width: 100%;
+}
 .categorias {
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
-    padding: 16px 20px;
-    background-color: rgb(226, 225, 225);
-    border-right: 3px solid rgb(212, 211, 211);
+    /*padding: 16px 20px;*/
+    /*background-color: rgb(226, 225, 225);
+    border-right: 3px solid rgb(212, 211, 211);*/
     /*width: 240px;*/
+    /*row-gap: 15px;*/
+    /*
 }
 .categorias ul {
     list-style-type: none;
@@ -33,23 +40,30 @@ nav > h2{
 a {
     text-decoration: none;
 }
-li{
+ul{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.enlace {
+    color: rgb(255, 255, 255);
     display: inline-block;
     padding: 5px;
-    margin-bottom: 10px;
-    border-radius: 3px;
     font-size: 19px;
-    box-shadow: 0px 0px 6px rgba(0,0,0,0.3);
-    background-color: rgb(226, 225, 225);
-}
+    font-weight: bold;
+    background-color: rgb(80, 80, 80);
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border: solid 1px black;
 
-li:hover{
-    background-color: #02b8b8;
 }
-.enlace {
+.enlace:hover {
+    background-color: #eeeeee;
     color: black;
 }
-
+*/
 /* END MENÚ */
 
 .conteiner-generos {
@@ -101,7 +115,6 @@ article {
 
 article:hover {
     transform: scale(1.04);
-    background-color: #02b8b8;
     border-radius: 9px;
 }
 
@@ -114,7 +127,9 @@ article:hover {
     display: grid;
     grid-template-rows: 80% 20%;
 }
-
+.artista:hover {
+    background-color: #02b8b8;
+}
 .imagen {
     border-bottom: 1px solid rgba(0, 0, 0, .125);
     text-align: center;
