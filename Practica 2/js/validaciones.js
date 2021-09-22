@@ -34,6 +34,7 @@ function enviar() {
         return false;
     }
 
+//Muestra los valores al pasar todas las validaciones de campos
     alert("Nombre: " + nombre.value +
         "\nApellido: " + apellido.value +
         "\nFecha de Nacimiento: " + fecha_nacimiento.value +
@@ -42,6 +43,8 @@ function enviar() {
         "\nComentario: " + comentario.value +
         "\nValoracion: " + valoracion.value);
 }
+
+//Click en restablecer: limpiar formulario
 
 $(document).on('click', '#restablecer', function () {
     document.getElementById("nombre").value = "";
@@ -52,13 +55,16 @@ $(document).on('click', '#restablecer', function () {
     document.getElementById("email").value = "";
     document.getElementById("comentario").value = "";
 });
+
+//Click en cancelar: Volver al inicio
+
 $(document).on('click', '#cancelar', function () {
-    document.getElementById("nombre").value = "";
-    document.getElementById("apellido").value = "";
-    document.getElementById("fechanac").value = "";
-    document.getElementById("sexo").value = "";
-    document.getElementById("valoracion").value = "Seleccione";
-    document.getElementById("email").value = "";
-    document.getElementById("comentario").value = "";
+    var elegir = confirm("¿Seguro que desea volver al inicio?");
+    if(elegir == true){
+        window.location.href='index.html';
+    }
+    else{
+        window.location.href='encuesta.html';
+    }
 });
 
