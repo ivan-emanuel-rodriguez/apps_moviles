@@ -59,9 +59,9 @@ $(document).on('click', '#restablecer', function () {
 //Click en cancelar: Volver al inicio
 
 $(document).on('click', '#cancelar', function () {
-    var elegir = confirm("¿Seguro que desea volver al inicio?");
+    var elegir = confirm("¿Seguro que desea volver a la pagina anterior?");
     if(elegir == true){
-        window.location.href='index.html';
+        window.history.back();
     }
     else{
         window.location.href='encuesta.html';
