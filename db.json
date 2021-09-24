@@ -1,0 +1,36 @@
+{
+  "lista":[
+     {
+        "id":0,
+        "artista":"Shakira",
+        "edad":31,
+        "sexo":"femenino",
+        "precio":"$1,318.59",
+        "descripcion":"cantante latina colombiana"
+     },
+     {
+        "id":1,
+        "artista":"Luis Fonsi",
+        "edad":41,
+        "sexo":"masculino",
+        "precio":"$2,009.47",
+        "descripcion":"cantante latino puertoriqueño"
+     },
+     {
+        "id":2,
+        "artista":"Thalia",
+        "edad":57,
+        "sexo":"femenino",
+        "precio":"$2,144.73",
+        "descripcion":"cantante latina mexicana"
+     },
+     {
+        "id":3,
+        "artista":"Luis Miguel",
+        "edad":50,
+        "sexo":"masculino",
+        "precio":"$1,982.22",
+        "descripcion":"cantante latino mexicano"
+     }
+  ]
+} 
