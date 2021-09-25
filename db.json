@@ -1,5 +1,4 @@
-{
-  "lista":[
+[
      {
         "id":0,
         "artista":"Shakira",
@@ -37,4 +36,3 @@
         "imagen":"luismiguel.jpg"
      }
   ]
-}
