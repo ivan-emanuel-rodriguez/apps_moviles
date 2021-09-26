@@ -4,7 +4,7 @@
             "artista": "Shakira",
             "edad": 31,
             "sexo": "femenino",
-            "precio": 1318.59,
+            "precio": 1318,
             "descripcion": "cantante latina colombiana",
             "categoria": "latino",
             "imagen": "shakira.jpg"
@@ -14,7 +14,7 @@
             "artista": "Luis Fonsi",
             "edad": 41,
             "sexo": "masculino",
-            "precio": 2009.47,
+            "precio": 2009,
             "descripcion": "cantante latino puertoriqueño",
             "categoria": "latino",
             "imagen": "luisfonsi.jpg"
@@ -24,7 +24,7 @@
             "artista": "Thalia",
             "edad": 57,
             "sexo": "femenino",
-            "precio": 2144.73,
+            "precio": 2144,
             "descripcion": "cantante latina mexicana",
             "categoria": "latino",
             "imagen": "thalia.jpg"
@@ -34,7 +34,7 @@
             "artista": "Luis Miguel",
             "edad": 50,
             "sexo": "masculino",
-            "precio": 1982.22,
+            "precio": 1982,
             "descripcion": "cantante latino mexicano",
             "categoria": "latino",
             "imagen": "luismiguel.jpg"
