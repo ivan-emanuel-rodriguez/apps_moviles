@@ -1,43 +1,103 @@
 {
     "lista": [{
-            "id": 0,
+            "id": 1,
             "artista": "Shakira",
             "edad": 31,
             "sexo": "femenino",
-            "precio": "$1,318.59",
+            "precio": 1318.59,
             "descripcion": "cantante latina colombiana",
             "categoria": "latino",
             "imagen": "shakira.jpg"
         },
         {
-            "id": 1,
+            "id": 2,
             "artista": "Luis Fonsi",
             "edad": 41,
             "sexo": "masculino",
-            "precio": "$2,009.47",
+            "precio": 2009.47,
             "descripcion": "cantante latino puertoriqueño",
             "categoria": "latino",
             "imagen": "luisfonsi.jpg"
         },
         {
-            "id": 2,
+            "id": 3,
             "artista": "Thalia",
             "edad": 57,
             "sexo": "femenino",
-            "precio": "$2,144.73",
+            "precio": 2144.73,
             "descripcion": "cantante latina mexicana",
             "categoria": "latino",
             "imagen": "thalia.jpg"
         },
         {
-            "id": 3,
+            "id": 4,
             "artista": "Luis Miguel",
             "edad": 50,
             "sexo": "masculino",
-            "precio": "$1,982.22",
+            "precio": 1982.22,
             "descripcion": "cantante latino mexicano",
             "categoria": "latino",
             "imagen": "luismiguel.jpg"
+        },
+        {
+            "id": 5,
+            "artista": "Daddy Yankee",
+            "edad": 45,
+            "sexo": "masculino",
+            "precio": 3500,
+            "descripcion": "cantante puertorriqueño",
+            "categoria": "urbana",
+            "imagen": "daddy.jpg"
+        },
+        {
+            "id": 6,
+            "artista": "Bad Bunny",
+            "edad": 27,
+            "sexo": "masculino",
+            "precio": 3220,
+            "descripcion": "cantante puertorriqueño",
+            "categoria": "urbana",
+            "imagen": "badbunny.jpg"
+        },
+        {
+            "id": 7,
+            "artista": "David Guetta",
+            "edad": 50,
+            "sexo": "masculino",
+            "precio": 2400,
+            "descripcion": "productor francés",
+            "categoria": "electronica",
+            "imagen": "davidguetta.jpg"
+        },
+        {
+            "id": 8,
+            "artista": "Tiesto",
+            "edad": 53,
+            "sexo": "masculino",
+            "precio": 1950,
+            "descripcion": "productor neerlandés",
+            "categoria": "electronica",
+            "imagen": "tiesto.jpg"
+        },
+        {
+            "id": 9,
+            "artista": "Indio Solari",
+            "edad": 72,
+            "sexo": "masculino",
+            "precio": 1800,
+            "descripcion": "cantante argentino",
+            "categoria": "rock",
+            "imagen": "indiosolari.jpg"
+        },
+        {
+            "id": 10,
+            "artista": "Duki",
+            "edad": 25,
+            "sexo": "masculino",
+            "precio": 2400,
+            "descripcion": "cantante argentino",
+            "categoria": "urbana",
+            "imagen": "duki.jpg"
         }
     ]
 }
