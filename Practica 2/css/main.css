@@ -117,7 +117,7 @@ article:hover {
     justify-content: center;   
 }
 
-.precio> p{
+.precio, .valor > p{
     margin-top: 5px;
     font-size: 14px;
     font-weight: bold;
