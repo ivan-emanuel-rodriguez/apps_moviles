@@ -1,5 +1,4 @@
-{
-  "lista": [
+[
     {
       "id": 0,
       "artista": "Shakira",
@@ -36,5 +35,4 @@
       "descripcion": "cantante latino mexicano",
       "imagen": "luismiguel.jpg"
     }
-  ]
-}
+]
