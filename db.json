@@ -7,7 +7,7 @@
             "precio": 1318,
             "descripcion": "cantante latina colombiana",
             "categoria": "latino",
-            "imagen": "shakira.jpg"
+            "imagen": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Shakira.JPG"
         },
         {
             "id": 2,
