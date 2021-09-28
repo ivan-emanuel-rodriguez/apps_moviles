@@ -60,7 +60,7 @@ h4 {
 /* ARTICULOS */
 article {
     margin: 0 auto;
-    background-color: rgb(226, 225, 225);
+    /*background-color: rgb(226, 225, 225);*/
     transition: transform 0.3s ease-in-out;
 }
 
