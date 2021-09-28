@@ -2,7 +2,7 @@
     "lista": [{
             "id": 1,
             "artista": "Shakira",
-            "edad": 31,
+            "edad": 38,
             "sexo": "femenino",
             "precio": 1318,
             "descripcion": "cantante latina colombiana",
@@ -17,7 +17,7 @@
             "precio": 2009,
             "descripcion": "cantante latino puertoriqueño",
             "categoria": "latino",
-            "imagen": "luisfonsi.jpg"
+            "imagen": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Luis_Fonsi_2015_%28cropped%29.JPG"
         },
         {
             "id": 3,
@@ -27,7 +27,7 @@
             "precio": 2144,
             "descripcion": "cantante latina mexicana",
             "categoria": "latino",
-            "imagen": "thalia.jpg"
+            "imagen": "https://upload.wikimedia.org/wikipedia/commons/7/7b/ThaliaSodi.jpg"
         },
         {
             "id": 4,
@@ -37,67 +37,67 @@
             "precio": 1982,
             "descripcion": "cantante latino mexicano",
             "categoria": "latino",
-            "imagen": "luismiguel.jpg"
+            "imagen": "https://upload.wikimedia.org/wikipedia/commons/5/57/Luis_Miguel.jpg"
         },
         {
             "id": 5,
-            "artista": "Daddy Yankee",
+            "artista": "Ricky Martin",
             "edad": 45,
             "sexo": "masculino",
             "precio": 3500,
-            "descripcion": "cantante puertorriqueño",
-            "categoria": "urbana",
-            "imagen": "daddy.jpg"
+            "descripcion": "cantante latino puertorriqueño",
+            "categoria": "latino",
+            "imagen": "https://upload.wikimedia.org/wikipedia/commons/1/19/Ricky_Martin_cropped1.jpg"
         },
         {
             "id": 6,
-            "artista": "Bad Bunny",
-            "edad": 27,
+            "artista": "Chayanne",
+            "edad": 62,
             "sexo": "masculino",
             "precio": 3220,
-            "descripcion": "cantante puertorriqueño",
-            "categoria": "urbana",
-            "imagen": "badbunny.jpg"
+            "descripcion": "cantante latino puertorriqueño",
+            "categoria": "latino",
+            "imagen": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Chayannemn.jpg"
         },
         {
             "id": 7,
-            "artista": "David Guetta",
-            "edad": 50,
+            "artista": "Enrique Iglesias",
+            "edad": 42,
             "sexo": "masculino",
             "precio": 2400,
-            "descripcion": "productor francés",
-            "categoria": "electronica",
-            "imagen": "davidguetta.jpg"
+            "descripcion": "cantante latino español",
+            "categoria": "latino",
+            "imagen": "https://upload.wikimedia.org/wikipedia/commons/1/16/Enrique_Iglesias_%286891751264%29.jpg"
         },
         {
             "id": 8,
-            "artista": "Tiesto",
-            "edad": 53,
-            "sexo": "masculino",
+            "artista": "Jennifer Loppez",
+            "edad": 63,
+            "sexo": "femenino",
             "precio": 1950,
-            "descripcion": "productor neerlandés",
-            "categoria": "electronica",
-            "imagen": "tiesto.jpg"
+            "descripcion": "cantante latina estadounidense",
+            "categoria": "latino",
+            "imagen": "https://upload.wikimedia.org/wikipedia/commons/b/b4/TIFF_2019_jlo_%281_of_1%29-2_%2848696671561%29_%28cropped%29.jpg"
         },
         {
             "id": 9,
-            "artista": "Indio Solari",
+            "artista": "Marco Antonio Solis",
             "edad": 72,
             "sexo": "masculino",
             "precio": 1800,
-            "descripcion": "cantante argentino",
-            "categoria": "rock",
-            "imagen": "indiosolari.jpg"
+            "descripcion": "cantante latino mexicano",
+            "categoria": "latino",
+            "imagen": "https://upload.wikimedia.org/wikipedia/commons/0/05/MarcoAntonioSolisCollage-1-1000_adjusted.jpg"
         },
         {
             "id": 10,
-            "artista": "Duki",
-            "edad": 25,
+            "artista": "Sandro",
+            "edad": 64,
             "sexo": "masculino",
             "precio": 2400,
-            "descripcion": "cantante argentino",
-            "categoria": "urbana",
-            "imagen": "duki.jpg"
+            "descripcion": "cantante latino argentino",
+            "categoria": "latino",
+            "imagen": "https://upload.wikimedia.org/wikipedia/commons/9/92/Sandro_retrato.jpg"
         }
     ]
 }
