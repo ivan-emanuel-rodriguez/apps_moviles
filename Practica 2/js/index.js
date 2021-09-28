@@ -2,7 +2,7 @@ $(document).on('click', 'article', function () {
     var carrito = $('#preciocarrito').text();
       if (this.value != "seleccionado") {
         $('img', this).css('opacity', .75);
-        $('.artista',this).css('background-color', "rgb(80, 80, 80)");
+        $('.artista',this).css('background-color', "#717b7a");
         $('.artista',this).css('color', "white");
         this.value = "seleccionado";
         //Cargar carrito
