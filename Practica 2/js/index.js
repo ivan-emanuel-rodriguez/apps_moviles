@@ -1,8 +1,12 @@
+window.onload = () => {
+  sessionStorage.setItem("valor_carrito", 0);
+}
+/*
 $(document).on('click', 'article', function () {
     var carrito = $('#preciocarrito').text();
       if (this.value != "seleccionado") {
         $('img', this).css('opacity', .75);
-        $('.artista',this).css('background-color', "#717b7a");
+        $('.artista',this).css('background-color', "rgb(80, 80, 80)");
         $('.artista',this).css('color', "white");
         this.value = "seleccionado";
         //Cargar carrito
@@ -127,9 +131,39 @@ $(document).on('click', 'article', function () {
           }
       }
 });
+*/
+$(document).on('click', 'article', function () {
+  var nuevo_valor;
+  var precio = document.getElementById("artista" + this.id).getAttribute("value");
+  console.log(precio);
 
+  if (this.value == "seleccionado") {
+    $('.artista .imagen img', this).css('opacity', 1);
+    $('.artista', this).css('background-color', "");
+    $('.artista', this).css('color', "black");
+    this.value = ""
 
-$(document).on('click', '#logo', function () {
-    window.location.href='/html/index.html'
+    nuevo_valor = parseInt(sessionStorage.getItem("valor_carrito")) - parseInt(precio);
+    sessionStorage.setItem("valor_carrito", nuevo_valor);
+  } else {
+    $('img', this).css('opacity', .75);
+    $('.artista', this).css('background-color', "rgb(80, 80, 80)");
+    $('.artista', this).css('color', "white");
+    this.value = "seleccionado";
+
+    if (sessionStorage.getItem("valor_carrito")) {
+      nuevo_valor = parseInt(sessionStorage.getItem("valor_carrito")) + parseInt(precio);
+      sessionStorage.setItem("valor_carrito", nuevo_valor);
+    } else {
+      sessionStorage.setItem("valor_carrito", parseInt(precio));
+    }
+  }
+  $('.precio').empty();
+    var contenido = $('.precio');
+    var text = `<p>${nuevo_valor}$</p>`;
+    contenido.append(text);
 });
 
+$(document).on('click', '#logo', function () {
+  window.location.href = '/html/index.html'
+});

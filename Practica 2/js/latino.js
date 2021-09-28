@@ -25,6 +25,9 @@ function CargarArtistas() {
                             <p>
                                 ${artista.artista}
                             </p>
+                            <div class="valor" id="artista${i}" value="${artista.precio}">
+                                <p>. Precio: ${artista.precio}</p>
+                            </div>
                         </div>
                     </div>
                 </article>
