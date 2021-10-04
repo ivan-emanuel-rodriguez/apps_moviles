@@ -1,3 +1,9 @@
+.color1 {color: #247f82;}
+.color2 {color: #849891;}
+.color3 {color: #670f1f;}
+.color4 {color: #8e6748;}
+.color5 {color: #b4b29e;}
+
 /*GENERAL*/
 * {
     box-sizing: border-box;
@@ -12,7 +18,7 @@ html {
     max-height: auto;
     display: flex;
     flex-direction: column;
-    background-color: #454951
+    /*background-color: #8e6748*/
 }
 
 /* HEADER */
@@ -23,7 +29,7 @@ html {
     min-height: 14vh;
     width: 100%;
     /*background-color: #02b8b8;*/
-    background-color: #1b1b1b;
+    background-color: #d51313;
     color: #ffffff
 }
 header {
@@ -120,7 +126,7 @@ footer {
     width: 100%;
     font-weight: bold;
     /*background-color: #02b8b8;*/
-    background-color: #1b1b1b;
+    background-color: #d51313;
     color: #ffffff;
     min-height: 8vh;
     display: flex;
